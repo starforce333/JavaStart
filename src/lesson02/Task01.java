@@ -16,13 +16,13 @@ public class Task01
         int two = number%10000/1000;
         System.out.println(two);
 
-        int three = number%10000%1000/100;
+        int three = number%1000/100;
         System.out.println(three);
 
-        int four = number%10000%1000%100/10;
+        int four = number%100/10;
         System.out.println(four);
 
-        int five = number%10000%1000%100%10;
+        int five = number%10;
         System.out.println(five);
 
     }
