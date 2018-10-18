@@ -17,7 +17,7 @@ public class Task02 {
         System.out.println("Enter your number: ");
         int number = input.nextInt();
 
-        if (number <= allAp) {
+        if (number <= allAp && number > 0) {
             entrance = (number - 1) / (allFloor * appOnFloor) + 1;
             System.out.println("The entrance is: " + entrance);
 

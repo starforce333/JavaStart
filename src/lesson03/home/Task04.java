@@ -16,7 +16,7 @@ public class Task04 {
         double c = input.nextDouble();
 
         if (a > 0 && b > 0 && c > 0) {
-            if (a + b > c || a + c > b || b + c > a) {
+            if (a + b > c && a + c > b && b + c > a) {
                 System.out.println("This is RIGHT triangle! :)");
             } else {
                 System.out.println("This is WRONG triangle! :(");
