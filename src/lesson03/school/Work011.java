@@ -1,13 +1,12 @@
-package lesson03;
+package lesson03.school;
 
 import java.util.Scanner;
 
-public class Task01 {
+public class Work011 {
     public static void main(String[] args) {
 
         int max;
         Scanner input = new Scanner(System.in);
-
         System.out.println("Enter a: ");
         int a = input.nextInt();
 
@@ -17,20 +16,14 @@ public class Task01 {
         System.out.println("Enter c: ");
         int c = input.nextInt();
 
-        System.out.println("Enter d: ");
-        int d = input.nextInt();
-
         max = a;
 
         if (b > max) {
             max = b;
         }
         if (c > max) {
-            max = c;
-        }
-        if (d > max) {
-            max = d;
-        }
+                max = c;
+            }
 
         System.out.println("Max = " + max);
     }
