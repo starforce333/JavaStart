@@ -5,8 +5,6 @@ public class Task06 {
     public static void main(String[] args) {
 
         boolean number;
-        String list = "";
-
 
         for (int i = 2; i <= 100; i++) {
 
@@ -20,13 +18,11 @@ public class Task06 {
             }
 
             if (number) {
-                list = list + number + ";";
+                System.out.println(i);
 
             }
 
         }
-
-        System.out.println(list);
 
     }
 
