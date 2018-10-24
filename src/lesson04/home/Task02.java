@@ -8,12 +8,12 @@ public class Task02 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter number: ");
         int num = input.nextInt();
-        int factorial = 1;
+        long factorial = 1L;
 
 
         if (num > 4 && num < 16) {
-            for (int i = 0; i < (num - 1); i++) {
-                factorial = factorial * (num - i);
+            for (int i = 2; i <= num; i++) {
+                factorial = factorial * i;
             }
 
             System.out.println("Factorial of " + num + " is: " + factorial);
