@@ -12,16 +12,19 @@ public class Work02 {
         for (int i = 0; i < pay.length; i++) {
             pay[i] = 10000 + rn.nextInt(10000);      /////??????????
         }
+        System.out.println(Arrays.toString(pay));
 
         int sum = 0;
         for (int i = 0; i < pay.length; i++) {       ////?????????????
             sum = sum + pay[i];
         }
 
-        System.out.println("Average" + sum / pay.length);
+        System.out.println("Average = " + sum / pay.length);
 
         int[] b = Arrays.copyOfRange(pay, 1, 5);
+        System.out.println();
         System.out.println(Arrays.toString(b));
+        System.out.println();
         Arrays.sort(b);
         System.out.println(Arrays.toString(b));
 
