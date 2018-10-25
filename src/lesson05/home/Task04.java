@@ -16,11 +16,11 @@ public class Task04 {
 
         for (int i = 0; i < mass.length; i++) {
             if (mass[i] == 'b') {
-                sum = sum + 1;
+                sum++;
             }
 
         }
         System.out.println("The number of symbol 'b' is: " + sum);
-
     }
 }
+
