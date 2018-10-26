@@ -9,13 +9,8 @@ public class Task01 {
             if (mas % 2 != 0) {
                 sum = sum + 1;
             }
-
-
         }
-
         System.out.println("There are " + sum + " odd numbers");
-
     }
-
 }
 

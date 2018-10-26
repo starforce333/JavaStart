@@ -1,6 +1,5 @@
 package lesson05.home;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task04 {
@@ -11,8 +10,7 @@ public class Task04 {
         String phrase = input.nextLine();
 
         int sum = 0;
-        char[] mass;
-        mass = phrase.toCharArray();
+        char[] mass = phrase.toCharArray();
 
         for (int i = 0; i < mass.length; i++) {
             if (mass[i] == 'b') {

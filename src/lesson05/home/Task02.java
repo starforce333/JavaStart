@@ -19,9 +19,7 @@ public class Task02 {
                 System.out.println("Enter number for " + i + " line and " + j + " column");
                 int num = input.nextInt();
                 mass[i][j] = num;
-
             }
-
         }
 
         for (int i = 0; i < mass.length; i++) {
@@ -30,11 +28,7 @@ public class Task02 {
                     System.out.println(mass[i][j] + " ");
                 } else
                     System.out.print(mass[i][j] + " ");
-
             }
-
         }
-
-
     }
 }
