@@ -17,6 +17,13 @@ public class Task01 {
         System.out.println(max);
     }
 
+    /**
+     * Random array
+     * @param a <code> int [] </code> Array of integers
+     * @return <code> int </code> return random array
+     * @author Starforce
+     */
+
     private static void arr(int[] a) {
         for (int i = 0; i < a.length; i++) {
             Random rand = new Random();
@@ -24,6 +31,13 @@ public class Task01 {
         }
         System.out.println(Arrays.toString(a));
     }
+
+    /**
+     * Find max
+     * @param a <code> int [] </code> Array of integers
+     * @return <code> int </code> return max value of integer in array
+     * @author Starforce
+     */
 
     private static int findMax(int[] a) {
         int max = 0;
