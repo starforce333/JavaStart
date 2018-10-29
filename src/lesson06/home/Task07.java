@@ -21,8 +21,7 @@ public class Task07 {
     }
 
     private static boolean pall(int a) {
-        String str = String.valueOf(a);
-        char[] mass = str.toCharArray();
+        char[] mass = String.valueOf(a).toCharArray();
         boolean value = true;
         for (int i = 0; i < mass.length; i++) {
             if (mass[i] != mass[mass.length - 1 - i]) {
