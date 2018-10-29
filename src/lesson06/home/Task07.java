@@ -16,7 +16,6 @@ public class Task07 {
                     two = j;
                 }
             }
-
         }
         System.out.println(one + " * " + two + " = " + max);
     }
