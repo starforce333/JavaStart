@@ -27,7 +27,7 @@ public class Task01 {
     private static void arr(int[] a) {
         for (int i = 0; i < a.length; i++) {
             Random rand = new Random();
-            a[i] = rand.nextInt(100);
+            a[i] = rand.nextInt();
         }
         System.out.println(Arrays.toString(a));
     }
@@ -40,8 +40,8 @@ public class Task01 {
      */
 
     private static int findMax(int[] a) {
-        int max = 0;
-        for (int i = 0; i < a.length; i++) {
+        int max = a[0];
+        for (int i = 1; i < a.length; i++) {
             if (a[i] > max) {
                 max = a[i];
             }
