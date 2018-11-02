@@ -7,13 +7,13 @@ public class Task01 {
     public static void main(String[] args) {
 
         Calendar calendar = Calendar.getInstance();
+        Calendar calendar1 = Calendar.getInstance();
 
         Date dateNow = calendar.getTime();
         long now = calendar.getTimeInMillis();
         System.out.println(dateNow);
 
-        int monthAgo = calendar.get(Calendar.MONTH) - 1;
-        calendar.set(Calendar.MONTH, monthAgo);
+        calendar1.set(Calendar.MONTH, calendar.get(Calendar.MONTH) - 1);
 
         if (calendar.get(Calendar.DAY_OF_MONTH) == 1) {
             int dayAgo = calendar.get(Calendar.DAY_OF_MONTH) - 1;
