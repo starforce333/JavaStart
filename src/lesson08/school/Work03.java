@@ -11,7 +11,6 @@ public class Work03 {
 
         String text = loadString(file);
         System.out.println(text);
-
     }
 
     private static String loadString(File file) {

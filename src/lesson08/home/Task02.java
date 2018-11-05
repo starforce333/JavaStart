@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-
 public class Task02 {
     public static void main(String[] args) {
         File file = new File("array.txt");
